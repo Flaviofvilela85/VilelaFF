@@ -1,0 +1,970 @@
+## Scenario III
+
+Materia_prima Pallet_entrada                      1    Materia_prima Pth01        FIRST 1  
+ Materia_prima Pth01          INC CPTH1, 1
+                              
+                              IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo1= N(56.6, 9.38)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo1= N(62.7, 8.90)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo1= N(68.3, 10.1)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo1= N(77.6, 10.0)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo1= N(58.7, 6.03)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo1= N(60.7, 6.24)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo1= N(66.0, 7.95)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo1= N(72.2, 6.89)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo1= N(60.3, 9.10)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo1= N(68.5, 9.83)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo1= N(71.4, 6.21)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo1= N(62.8, 1.42)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo1= N(58.5, 7.14)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo1= N(69.1, 11.5)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo1= N(68.0, 7.38)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo1= N(75.1, 8.14)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo1= N(59.7, 7.42)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo1= N(63.4, 5.71)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo1= N(72.1, 7.25)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo1= N(80.3, 7.63)
+                              }
+                              
+                              
+                              Wait tempo1 SEC
+                                                   1    Produto       Pth02        FIRST 1  
+ Produto       Pth02          IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo2= N(53.5, 7.04)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo2= N(51.3, 6.99)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo2= N(61.6, 5.23)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo2= N(59.9, 6.46)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo2= N(55.5, 6.54)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo2= N(60.1, 8.15)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo2= N(57.7, 6.51)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo2= N(57.0, 8.72)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo2= N(58.5, 5.77)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo2= N(65.1, 6.48)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo2= N(74.0, 4.41)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo2= N(52.1, 3.40)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo2= N(57.7, 5.83)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo2= N(59.7, 5.29)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo2= N(65.6, 5.75)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo2= N(71.1, 6.47)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo2= N(58.7, 3.07)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo2= N(61.5, 3.84)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo2= N(64.3, 4.60)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo2= N(70.1, 4.20)
+                              }
+                              
+                              
+                              Wait tempo2 SEC      1    Produto       Pth03        FIRST 1  
+ Produto       Pth03          IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo3= N(44.6, 5.0)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo3= N(48.2, 4.65)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo3= N(49.8, 5.74)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo3= N(51.2, 5.14)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo3= N(47.2, 5.72)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo3= N(47.5, 3.26)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo3= N(48.4, 3.77)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo3= N(52.9, 2.05)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo3= N(48.7, 4.52)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo3= N(49.4, 4.36)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo3= N(51.2, 5.34)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo3= N(56.4, 7.57)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo3= N(50.1, 4.87)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo3= N(52.7, 4.14)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo3= N(50.7, 4.74)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo3= N(47.3, 4.63)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo3= N(52.5, 3.65)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo3= N(52.9, 4.90)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo3= N(55.6, 4.29)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo3= N(58.3, 4.43)
+                              }
+                              
+                              
+                              Wait tempo3 SEC      1    Produto       Revisao_pci  FIRST 1  
+ Produto       Revisao_pci    IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo4= N(85.9, 4.72)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo4= N(87.1, 5.55)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo4= N(87.7, 4.61)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo4= N(85.3, 5.32)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo4= N(83.2, 3.49)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo4= N(82.8, 4.10)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo4= N(85.5, 3.42)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo4= N(89.1, 3.70)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo4= N(82.3, 3.70)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo4= N(88.1, 4.58)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo4= N(103, 10.5)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo4= N(92.2, 8.92)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo4= N(83.1, 3.99)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo4= N(84.9, 4.27)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo4= N(84.2, 3.39)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo4= N(85.2, 4.07)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo4= N(83.5, 3.84)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo4= N(85.1, 3.79)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo4= N(86.3, 3.23)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo4= N(88.6, 2.68)
+                              }
+                              
+                              
+                              Wait tempo4 SEC      1    Produto       Touch        FIRST 1  
+ Produto       Touch          IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo5= N(179, 20.2)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo5= N(186, 15.7)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo5= N(227, 21.3)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo5= N(245, 24.8)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo5= N(184, 13.7)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo5= N(187, 9.41)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo5= N(219, 22.4)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo5= N(243, 10.3)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo5= N(191, 25.9)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo5= N(188, 10.7)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo5= N(249, 10.5)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo5= N(282, 25.9)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo5= N(183, 28.2)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo5= N(173, 22)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo5= N(178, 15.7)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo5= N(217, 24.9)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo5= N(182, 24.7)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo5= N(186, 18)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo5= N(219, 20.8)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo5= N(240, 18.6)
+                              }
+                              
+                              
+                              Wait tempo5 SEC      1    Produto       Cqp          FIRST 1  
+ Produto       Cqp            IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo6= N(69.7, 8.98)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo6= N(73.5, 10.9)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo6= N(74.0, 12.2)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo6= N(80.5, 11.0)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo6= N(69.7, 9.73)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo6= N(86.7, 9.60)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo6= N(83.9, 7.38)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo6= N(94.3, 10.1)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo6= N(69.3, 10.5)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo6= N(67.5, 9.48)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo6= N(76.3, 19.6)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo6= N(107, 21.5)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo6= N(70.5, 6.90)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo6= N(74.8, 5.99)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo6= N(68.3, 5.31)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo6= N(82.7, 11.8)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo6= N(73.3, 7.58)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo6= N(74.1, 7.30)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo6= N(75.5, 6.18)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo6= N(97.1, 14.4)
+                              }
+                              
+                              
+                              Wait tempo6 SEC      1    Produto       Fct          FIRST 1  
+ Produto       Fct            IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo7= N(39.6, 3.03)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo7= N(38.2, 2.48)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo7= N(39.3, 3.36)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo7= N(39.1, 2.99)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo7= N(39.3, 4.25)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo7= N(38.9, 3.26)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo7= N(39.3, 3.63)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo7= N(40.8, 2.43)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo7= N(36.9, 3.19)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo7= N(35.1, 3.57)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo7= N(39.9, 2.22)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo7= N(41.1, 2.06)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo7= N(35.0, 3.90)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo7= N(36.8, 2.88)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo7= N(37.2, 4.53)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo7= N(39.5, 3.18)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo7= N(41.3, 2.15)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo7= N(39.6, 2.92)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo7= N(40.1, 1.91)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo7= N(41.0, 1.90)
+                              }
+                              
+                              
+                              Wait tempo7 SEC      1    Produto       Ict          FIRST 1  
+ Produto       Ict            IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo8= N(156, 12)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo8= N(152, 11.4)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo8= N(163, 14)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo8= N(184, 9.94)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo8= N(155, 13.5)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo8= N(150, 11.4)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo8= N(152, 11.2)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo8= N(177, 17.5)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo8= N(164, 25.7)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo8= N(158, 15.5)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo8= N(180, 6.01)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo8= N(184, 13.1)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo8= N(152, 18.4)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo8= N(159, 17.9)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo8= N(172, 16.8)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo8= N(181, 21.5)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo8= N(156, 25.3)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo8= N(153, 15.1)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo8= N(171, 26.1)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo8= N(187, 28.9)
+                              }
+                              
+                              
+                              Wait tempo8 SEC      1    Produto       Cqf          FIRST 1  
+ Produto       Cqf            IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo9= N(83.6, 7.42)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo9= N(88, 6.55)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo9= N(92.9, 8.15)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo9= N(102, 7.47)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo9= N(86.3, 7.96)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo9= N(90.3, 7.09)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo9= N(94.5, 4.44)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo9= N(104, 6.68)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo9= N(85.7, 7.79)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo9= N(88.3, 5.09)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo9= N(93.7, 9.34)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo9= N(99.7, 17.7)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo9= N(86.4, 8.28)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo9= N(91.5, 4.16)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo9= N(97.3, 7.55)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo9= N(97.0, 4.46)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo9= N(87.8, 6.97)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo9= N(91.7, 4.39)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo9= N(96.8, 3.75)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo9= N(107, 5.99)
+                              }
+                              
+                              
+                              Wait tempo9 SEC      1    Produto       Embalagem    FIRST 1  
+ Produto       Embalagem      INC CEMB, 1
+                              
+                              IF CALDAY() = 1  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo10= N(16.4, 1.14)
+                              }
+                               ELSE
+                              IF CALDAY() = 1  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo10= N(16.8, 0.909)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo10= N(17.9, 0.772)
+                              }
+                              IF CALDAY() = 1  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo10= N(17.3, 1.01)
+                              }
+                              
+                              
+                              IF CALDAY() = 2  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo10= N(18.0, 1.03)
+                              }
+                               ELSE
+                              IF CALDAY() = 2  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo10= N(18.5, 1.54)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo10= N(17.2, 1.11)
+                              }
+                              IF CALDAY() = 2  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo10= N(18.2, 1.94)
+                              }
+                              
+                              
+                              IF CALDAY() = 3  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo10= N(17.6, 1.58)
+                              }
+                               ELSE
+                              IF CALDAY() = 3  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo10= N(18.6, 1.85)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo10= N(18.5, 1.5)
+                              }
+                              IF CALDAY() = 3  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo10= N(20.2, 2.10)
+                              }
+                              
+                              
+                              IF CALDAY() = 4  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo10= N(16.7, 1.40)
+                              }
+                               ELSE
+                              IF CALDAY() = 4  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo10= N(17.7, 0.929)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo10= N(17.3, 0.854)
+                              }
+                              IF CALDAY() = 4  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo10= N(17.5, 0.884)
+                              }
+                              
+                              
+                              IF CALDAY() = 5  AND CALHOUR() > 6 AND CALHOUR() < 9 THEN 
+                              {
+                               tempo10= N(17.9, 0.854)
+                              }
+                               ELSE
+                              IF CALDAY() = 5  AND CALHOUR() > 8 AND CALHOUR() < 12 THEN
+                              {
+                               tempo10= N(16.9, 1.02)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 12 AND CALHOUR() < 15 THEN
+                              {
+                               tempo10= N(17.7, 0.929)
+                              }
+                              IF CALDAY() = 5  AND CALHOUR() > 14 AND CALHOUR() < 17 THEN
+                              { 
+                               tempo10= N(18.5, 1.89)
+                              }
+                              
+                              
+                              Wait tempo10 SEC
+                                                   1    Produto       Pallet_saida FIRST 1  
+ Produto       Pallet_saida                        1    Produto       EXIT         FIRST 1  
